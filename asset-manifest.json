@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Joshua_Portfolio/static/css/main.054e1dda.css",
-    "main.js": "/Joshua_Portfolio/static/js/main.b804df50.js",
+    "main.js": "/Joshua_Portfolio/static/js/main.7ef94191.js",
     "static/media/mountains.png": "/Joshua_Portfolio/static/media/mountains.6bceb498a0e1e0a70b47.png",
     "static/media/stars.png": "/Joshua_Portfolio/static/media/stars.a979f6ed7ad00c7ea0b2.png",
     "static/media/planets.png": "/Joshua_Portfolio/static/media/planets.827213af57ae82d007cd.png",
     "index.html": "/Joshua_Portfolio/index.html",
     "main.054e1dda.css.map": "/Joshua_Portfolio/static/css/main.054e1dda.css.map",
-    "main.b804df50.js.map": "/Joshua_Portfolio/static/js/main.b804df50.js.map"
+    "main.7ef94191.js.map": "/Joshua_Portfolio/static/js/main.7ef94191.js.map"
   },
   "entrypoints": [
     "static/css/main.054e1dda.css",
-    "static/js/main.b804df50.js"
+    "static/js/main.7ef94191.js"
   ]
 }
