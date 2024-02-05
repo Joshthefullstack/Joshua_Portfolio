@@ -58,7 +58,7 @@ const Hero = () => {
         Developer Designer Accountant
       </motion.div>
       <div className='imageContainer'>
-        <img src='/assets/hero2.png' alt=''/>
+        <img src='./Joshua_Portfolio/assets/hero2.png' alt=''/>
       </div>
     </div>  
   )
