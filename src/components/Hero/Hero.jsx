@@ -51,14 +51,14 @@ const Hero = () => {
             <motion.button variants={textVariants}><a href='assets/Ibiam_Joshua_Resume.pdf' download>Download Resume</a></motion.button>
             <motion.button variants={textVariants} href='#Contacts'>Contact Me</motion.button>
           </motion.div>
-          <motion.img src="/assets/scroll.png" animate='scrollButton' alt='' variants={textVariants}/>
+          <motion.img src="./assets/scroll.png" animate='scrollButton' alt='' variants={textVariants}/>
         </motion.div>
       </div>
       <motion.div className='slidingTextContainer' variants={sliderVariants} initial="initial" animate="animate">
         Developer Designer Accountant
       </motion.div>
       <div className='imageContainer'>
-        <img src='./Joshua_Portfolio/assets/hero2.png' alt=''/>
+        <img src='./assets/hero2.png' alt=''/>
       </div>
     </div>  
   )
