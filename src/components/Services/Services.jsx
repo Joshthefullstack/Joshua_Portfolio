@@ -33,15 +33,9 @@ const Services = () => {
       ref={ref}
       // animate={isInView && "animate"}
     >
-        {/* <motion.div className="textContainer" variants={serviceVariants}>
-          <p>
-            I focus on helping your business grow <br /> and move forward
-          </p>
-          <hr />
-        </motion.div> */}
       <motion.div className="titleContainer" variants={serviceVariants}>
         <div className="title">
-          <img src="/assets/people.webp" alt="" />
+          <img src="./assets/people.webp" alt="" />
           <h1>
             {" "}
             <motion.b whileHover={{ color: "orange"}}>Services</motion.b> That I Provide

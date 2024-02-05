@@ -10,7 +10,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="/assets/html.png" alt="" />
+                <img src="./assets/html.png" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -22,7 +22,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="/assets/css3.png" alt="" />
+                <img src="./assets/css3.png" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -34,7 +34,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="/assets/javascript.png" alt="" />
+                <img src="./assets/javascript.png" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -47,7 +47,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="/assets/react.png" alt="" />
+                <img src="./assets/react.png" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -59,7 +59,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="/assets/nextjs_icon_212861.png" alt="" />
+                <img src="./assets/nextjs_icon_212861.png" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -71,7 +71,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="/assets/typescript.png" alt="" />
+                <img src="./assets/typescript.png" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -83,7 +83,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="/assets/pngwing.com.png" alt="" />
+                <img src="./assets/pngwing.com.png" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -95,7 +95,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="/assets/node-removebg-preview.png" alt="" />
+                <img src="./assets/node-removebg-preview.png" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -107,7 +107,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="/assets/mongo-db.png" alt="" />
+                <img src="./assets/mongo-db.png" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -121,7 +121,7 @@ const Skills = () => {
           <div className="card">
           <div className="content">
             <div className="imgBx">
-              <img src="/assets/github.png" alt=''/>
+              <img src="./assets/github.png" alt=''/>
             </div>
           </div>
           <ul className="sci">
@@ -134,7 +134,7 @@ const Skills = () => {
           <div className="card">
           <div className="content">
             <div className="imgBx">
-              <img src="/assets/git.png" alt=''/>
+              <img src="./assets/git.png" alt=''/>
             </div>
           </div>
           <ul className="sci">

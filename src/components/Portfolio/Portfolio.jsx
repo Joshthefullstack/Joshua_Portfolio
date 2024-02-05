@@ -6,31 +6,24 @@ const items = [
   {
     id: 1,
     title: "Web3 Blockchain Landing Page",
-    img: "/assets/blockchain.png",
+    img: "./assets/blockchain.png",
     desc: "Transformed ready UI/UX Design of a Web3 Blockchain Landing Page for a client, and got a good review after, rechnology used for building it was React, it was responsive and fully functional.",
     link: "https://github.com/Joshthefullstack/D-Apps-blockchain"
   },
   {
     id: 2,
     title: "Learned",
-    img: "/assets/e-learning.png",
+    img: "./assets/e-learning.png",
     desc: "Learned is an online education platform, I built for the purpose of bridging the gaps between Nigerian primary schools and technology. I implemented both backend and frontend features, using Node.js and React",
     link: "https://github.com/Joshthefullstack/Learned-ver-1"
   },
   {
     id: 3,
     title: "Next.js Online Bookstore",
-    img: "/assets/bookstore.png",
+    img: "./assets/bookstore.png",
     desc: "Using Next.js Technology and Nest.js technology, I designed an online bookstore, where users, can come check out some of their favorite books and the prices, and admins can perform CRUD operations on different books.",
     link: "https://github.com/Joshthefullstack/nestjs-application"
   },
-
-  // {
-  //   id: 4,
-  //   title: "Music App",
-  //   img: "/assets/music.png",
-  //   desc: "Lorem ipsum decor delor. cornor reewte dolor ipsum denerator gorador rewadol nobal fredi asgard fuck you bitch i greeet you boss",
-  // },
 ];
 
 const Single = ({ item }) => {
@@ -38,7 +31,6 @@ const Single = ({ item }) => {
 
   const { scrollYProgress } = useScroll({
     target: ref,
-    // offset: ["start start", "end start"],
   });
 
   const y = useTransform(scrollYProgress, [0, 1], [-500, 500]);
