@@ -13,13 +13,13 @@ import Loading from "./Loading/Loading";
 
 function App() {
 
-  const [loading, setLoading] = useState(true)
-  useEffect(() => {
-      setTimeout(() => setLoading(false), 5300)
-  }, [])
-  if (loading) {
-      return <Loading/>
-  }
+  // const [loading, setLoading] = useState(true)
+  // useEffect(() => {
+  //     setTimeout(() => setLoading(false), 2300)
+  // }, [])
+  // if (loading) {
+  //     return <Loading/>
+  // }
 
 
   return (

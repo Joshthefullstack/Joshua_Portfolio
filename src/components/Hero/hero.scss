@@ -35,17 +35,22 @@
       font-size: 30px;
       color: #02c2b5;
       letter-spacing: 10px;
+
+      @include mobile{
+        font-size: 28px;
+      }
     }
 
     h1{
       font-size: 50px;
 
       @include mobile {
-        font-size: 30px;
+        font-size: 27px;
       }
     }
 
     .buttons{
+      display: flex;
       button{
         padding: 20px;
         border: 1px solid orange;
@@ -53,9 +58,11 @@
         background-color: transparent;
         color: orange;
         margin-right: 20px;
-        cursor: pointer;
         font-weight: 300;
+        cursor: pointer;
+        z-index: 2;
       }
+
     }
 
     img{
@@ -97,5 +104,6 @@
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
+    z-index: 1;
   }
 }

@@ -131,6 +131,7 @@ const Skills = () => {
           </ul>
           </div>
           
+{/*           
           <div className="card">
           <div className="content">
             <div className="imgBx">
@@ -142,7 +143,7 @@ const Skills = () => {
               <p>Git</p>
             </li>
           </ul>
-          </div>
+          </div> */}
 
         </div>
       </section>
