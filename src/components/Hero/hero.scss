@@ -75,6 +75,7 @@
     position: absolute;
     top: 0;
     right: 300px;
+    border: 1px solid red;
 
     @include mobile {
       height: 60%;
