@@ -51,7 +51,7 @@ const Hero = () => {
             <motion.button variants={textVariants} className='button'><a href='https://drive.google.com/file/d/1WFjUub_LqOLLY7LsoS6K9JUKV6oQLtwe/view?usp=sharing' >Go To Resume</a></motion.button> */}
             {/* <motion.button variants={textVariants} href='#Contacts'>Contact Me</motion.button> */}
           {/* </motion.div> */}
-          <motion.img src="./assets/scroll.png" animate='scrollButton' alt='' variants={textVariants}/>
+          {/* <motion.img src="./assets/scroll.png" animate='scrollButton' alt='' variants={textVariants}/> */}
         </motion.div>
       </div>
       <motion.div className='slidingTextContainer' variants={sliderVariants} initial="initial" animate="animate">
