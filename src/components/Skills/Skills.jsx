@@ -47,6 +47,20 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
+                <img src="./assets/wordpress.png" alt="" />
+              </div>
+            </div>
+            <ul className="sci">
+              <li>
+                <p>Wordpress
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div className="card">
+            <div className="content">
+              <div className="imgBx">
                 <img src="./assets/react.png" alt="" />
               </div>
             </div>

@@ -54,11 +54,11 @@ const Contacts = () => {
         <motion.h1 variants={variants}>Let's work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>ibiamjoshua20@gmail.com</span>
+          <span>adeleyepamilerin9@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>0810 146 2138</span>
+          <span>+234 816 561 9543</span>
         </motion.div>
       </motion.div>
       <motion.div className="formContainer" variants={variants}>

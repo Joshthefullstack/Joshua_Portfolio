@@ -23,3 +23,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+// scroll snap padding

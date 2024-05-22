@@ -5,17 +5,17 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Web3 Blockchain Landing Page",
-    img: "./assets/blockchain.png",
-    desc: "Transformed ready UI/UX Design of a Web3 Blockchain Landing Page for a client, and got a good review after, rechnology used for building it was React, it was responsive and fully functional.",
-    link: "https://github.com/Joshthefullstack/D-Apps-blockchain"
+    title: "Forerunner Leadership Training",
+    img: "./assets/Screenshot (112).png",
+    desc: "Forerunner Leadership Training is a Leadership training program, that is a part of the John Maxwell Programme. It incorporates registration form, functional pages, aesthetic artifacts.",
+    link: "https://forerunnerlt.com/"
   },
   {
     id: 2,
-    title: "Learned",
+    title: "Chapel Of Praise",
     img: "./assets/e-learning.png",
-    desc: "Learned is an online education platform, I built for the purpose of bridging the gaps between Nigerian primary schools and technology. I implemented both backend and frontend features, using Node.js and React",
-    link: "https://github.com/Joshthefullstack/Learned-ver-1"
+    desc: "A church website, that incorporates different forms, state of the art functionalities, it is a project for a church and was done with wordpress technologies.",
+    link: "https://cop.microwales.ca/"
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const Single = ({ item }) => {
           <motion.div style={{ y }} className="textContainer">
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <a href={item.link}>Github Link</a>
+            <a href={item.link}>Link</a>
           </motion.div>
         </div>
       </div>
