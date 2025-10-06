@@ -1,6 +1,6 @@
 import React from 'react';
 import "./hero.scss";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 
 const textVariants = {
@@ -42,26 +42,41 @@ const sliderVariants = {
 
 const Hero = () => {
   return (
-    <div className='hero'>
-      <div className='wrapper'>
-        <motion.div className='textContainer' variants={textVariants} initial="initial" animate="animate">
-          <motion.h2 variants={textVariants}>FA;ODUN ALEXANDER</motion.h2>
-          <motion.h1 variants={textVariants}>Fullstack Developer, Wordpress Developer and Graphics Designer</motion.h1>
+    <div className="hero">
+      <div className="wrapper">
+        <motion.div
+          className="textContainer"
+          variants={textVariants}
+          initial="initial"
+          animate="animate">
+          <motion.h2 variants={textVariants}>FALODUN ALEXANDER</motion.h2>
+          <motion.h1 variants={textVariants}>
+            Fullstack Developer, Graphics Designer
+          </motion.h1>
           {/* <motion.div className='buttons' variants={textVariants}>
             <motion.button variants={textVariants} className='button'><a href='https://drive.google.com/file/d/1WFjUub_LqOLLY7LsoS6K9JUKV6oQLtwe/view?usp=sharing' >Go To Resume</a></motion.button> */}
-            {/* <motion.button variants={textVariants} href='#Contacts'>Contact Me</motion.button> */}
+          {/* <motion.button variants={textVariants} href='#Contacts'>Contact Me</motion.button> */}
           {/* </motion.div> */}
-          <motion.img src="./assets/scroll.png" animate='scrollButton' alt='' variants={textVariants}/>
+          <motion.img
+            src="/assets/scroll.png"
+            animate="scrollButton"
+            alt=""
+            variants={textVariants}
+          />
         </motion.div>
       </div>
-      <motion.div className='slidingTextContainer' variants={sliderVariants} initial="initial" animate="animate">
-        Developer Designer Accountant
+      <motion.div
+        className="slidingTextContainer"
+        variants={sliderVariants}
+        initial="initial"
+        animate="animate">
+        Developer Designer
       </motion.div>
-      <div className='imageContainer'>
-        {/* <img src='./assets/hero3.png' alt=''/> */}
+      <div className="imageContainer">
+        <img src="/assets/IMG-20251006-WA0045.jpg" alt="" />
       </div>
-    </div>  
-  )
+    </div>
+  );
 }
 
 export default Hero
