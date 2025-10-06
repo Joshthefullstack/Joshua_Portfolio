@@ -73,7 +73,7 @@ const Hero = () => {
         Developer Designer
       </motion.div>
       <div className="imageContainer">
-        <img src="/assets/IMG-20251006-WA0045.jpg" alt="" />
+        <img src="/public/assets/IMG-20251006-WA0045.jpg" alt="" />
       </div>
     </div>
   );
