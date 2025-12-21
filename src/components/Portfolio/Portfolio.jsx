@@ -5,24 +5,24 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Forerunner Leadership Training",
+    title: "Learned - E-learning Platform",
     img: "./assets/Screenshot (112).png",
-    desc: "Forerunner Leadership Training is a Leadership training program, that is a part of the John Maxwell Programme. It incorporates registration form, functional pages, aesthetic artifacts.",
-    link: "https://forerunnerlt.com/"
+    desc: "Developed a full-stack learning platform to address digital education gaps in Nigerian primary schools. Created responsive frontend with React.js, designed RESTful APIs using Node.js, and managed data with PostgreSQL.",
+    link: "https://github.com/Joshthefullstack/Learned-ver-1",
   },
   {
     id: 2,
-    title: "Chapel Of Praise",
+    title: "CureHub – Hospital Management System",
     img: "./assets/e-learning.png",
-    desc: "A church website, that incorporates different forms, state of the art functionalities, it is a project for a church and was done with wordpress technologies.",
-    link: "https://cop.microwales.ca/"
+    desc: "Designed a hospital system to digitize manual healthcare workflows. Utilized C# and Entity Framework for the backend and Windows Forms for the frontend. Facilitated patient admission, doctor-patient mapping, and pharmaceutical dispensation with secure role-based access.",
+    link: "https://github.com/Joshthefullstack/CureHub",
   },
   {
     id: 3,
-    title: "Next.js Online Bookstore",
+    title: "Birthday Wishlist Application",
     img: "./assets/bookstore.png",
-    desc: "Using Next.js Technology and Nest.js technology, I designed an online bookstore, where users, can come check out some of their favorite books and the prices, and admins can perform CRUD operations on different books.",
-    link: "https://github.com/Joshthefullstack/nestjs-application"
+    desc: "Using Next.js Technology and Node.js technology and MongoDb for the database, I designed abirthday wishlist application where users, can come come and list out their wishes for their birthday, and generate an SEO friendly link, to share to others to view their wishlists they have created.",
+    link: "https://github.com/Joshthefullstack/wishlist-application",
   },
 ];
 
@@ -39,9 +39,9 @@ const Single = ({ item }) => {
     <section>
       <div className="container">
         <div className="wrapper">
-          <div className="imageContainer" ref={ref}>
+          {/* <div className="imageContainer" ref={ref}>
             <img src={item.img} alt="" />
-          </div>
+          </div> */}
           <motion.div style={{ y }} className="textContainer">
             <h2>{item.title}</h2>
             <p>{item.desc}</p>

@@ -1,5 +1,17 @@
 import React from "react";
 import "./skills.scss";
+import htmlImg from "../../assets/html.png";
+import cssImg from "../../assets/css3.png";
+import javascriptImg from "../../assets/javascript.png";
+import wordpRessImg from "../../assets/wordpress.png";
+import reactImg from "../../assets/react.png";
+import nextJs from "../../assets/nextjs_icon_212861.png";
+import typescriptImg from "../../assets/typescript.png";
+import nestjsImg from "../../assets/pngwing.com.png";
+import nodejsImg from "../../assets/node-removebg-preview.png";
+import mongodbImg from "../../assets/mongo-db.png";
+import githubImg from "../../assets/github-svgrepo-com.png";
+
 
 const Skills = () => {
   return (
@@ -10,7 +22,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/html.png" alt="" />
+                <img src={htmlImg} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -22,7 +34,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/css3.png" alt="" />
+                <img src={cssImg} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -34,7 +46,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/javascript.png" alt="" />
+                <img src={javascriptImg} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -47,7 +59,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/wordpress.png" alt="" />
+                <img src={wordpRessImg} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -61,7 +73,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/react.png" alt="" />
+                <img src={reactImg} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -73,7 +85,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/nextjs_icon_212861.png" alt="" />
+                <img src={nextJs} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -85,7 +97,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/typescript.png" alt="" />
+                <img src={typescriptImg} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -97,7 +109,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/pngwing.com.png" alt="" />
+                <img src={nestjsImg} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -109,7 +121,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/node-removebg-preview.png" alt="" />
+                <img src={nodejsImg} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -121,7 +133,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src="./assets/mongo-db.png" alt="" />
+                <img src={mongodbImg} alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -135,7 +147,7 @@ const Skills = () => {
           <div className="card">
           <div className="content">
             <div className="imgBx">
-              <img src="./assets/github.png" alt=''/>
+              <img src={githubImg} alt=''/>
             </div>
           </div>
           <ul className="sci">
