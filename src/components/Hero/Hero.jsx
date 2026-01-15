@@ -1,6 +1,6 @@
 import React from 'react';
 import "./hero.scss";
-import { motion } from "framer-motion";
+import { motion, LazyMotion, domAnimation } from "framer-motion";
 import heroImg from "../../assets/hero.png";
 
 
@@ -45,6 +45,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="wrapper">
+        <LazyMotion features={domAnimation}>
         <motion.div
           className="textContainer"
           variants={textVariants}
@@ -67,10 +68,13 @@ const Hero = () => {
           <motion.img
             src="/assets/scroll.png"
             animate="scrollButton"
+            loading='lazy'
             alt=""
             variants={textVariants}
           />
         </motion.div>
+
+        </LazyMotion>
       </div>
       <motion.div
         className="slidingTextContainer"

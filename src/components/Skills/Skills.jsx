@@ -22,7 +22,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={htmlImg} alt="" />
+                <img src={htmlImg} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -34,7 +34,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={cssImg} alt="" />
+                <img src={cssImg} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -46,7 +46,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={javascriptImg} alt="" />
+                <img src={javascriptImg} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -59,13 +59,12 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={wordpRessImg} alt="" />
+                <img src={wordpRessImg} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
               <li>
-                <p>Wordpress
-                </p>
+                <p>Wordpress</p>
               </li>
             </ul>
           </div>
@@ -73,7 +72,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={reactImg} alt="" />
+                <img src={reactImg} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -85,7 +84,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={nextJs} alt="" />
+                <img src={nextJs} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -97,7 +96,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={typescriptImg} alt="" />
+                <img src={typescriptImg} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -109,7 +108,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={nestjsImg} alt="" />
+                <img src={nestjsImg} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -121,7 +120,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={nodejsImg} alt="" />
+                <img src={nodejsImg} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -133,7 +132,7 @@ const Skills = () => {
           <div className="card">
             <div className="content">
               <div className="imgBx">
-                <img src={mongodbImg} alt="" />
+                <img src={mongodbImg} loading="lazy" alt="" />
               </div>
             </div>
             <ul className="sci">
@@ -143,21 +142,20 @@ const Skills = () => {
             </ul>
           </div>
 
-          
           <div className="card">
-          <div className="content">
-            <div className="imgBx">
-              <img src={githubImg} alt=''/>
+            <div className="content">
+              <div className="imgBx">
+                <img src={githubImg} loading="lazy" alt="" />
+              </div>
             </div>
+            <ul className="sci">
+              <li>
+                <p>Github</p>
+              </li>
+            </ul>
           </div>
-          <ul className="sci">
-            <li>
-              <p>Github</p>
-            </li>
-          </ul>
-          </div>
-          
-{/*           
+
+          {/*           
           <div className="card">
           <div className="content">
             <div className="imgBx">
@@ -170,7 +168,6 @@ const Skills = () => {
             </li>
           </ul>
           </div> */}
-
         </div>
       </section>
     </div>
