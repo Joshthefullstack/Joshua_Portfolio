@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Joshthefullstack.github.io/Joshua_Portfolio",
   "name": "portfolio-redo-ver3",
   "version": "0.1.0",
   "private": true,
@@ -45,6 +44,6 @@
     "gh-pages": "^6.1.1"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   }
 }
